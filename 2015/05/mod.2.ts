@@ -12,7 +12,7 @@ function splitBy2s( str:string )
     return rV;
 }
 
-function appearsTwiceButDontOverlap( str:Array<string> )
+function appearsTwiceButDontOverlap( str:Array<string> ) : boolean
 {
     var rV:boolean = false;
 
@@ -30,7 +30,7 @@ function appearsTwiceButDontOverlap( str:Array<string> )
     return rV;
 }
 
-function repeatWith1LetterBetween( str:string )
+function repeatWith1LetterBetween( str:string ) : boolean
 {
     var rV:boolean = false;
 
