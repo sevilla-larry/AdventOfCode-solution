@@ -4,7 +4,7 @@ var children:Array<string> = text.split("\n");
 
 //https://www.codegrepper.com/code-examples/javascript/how+to+check+vowels+in+a+string+in+javascript
 
-function countAtLeast3Vowels( str:string )
+function countAtLeast3Vowels( str:string ) : boolean
 {
     const cV:number = (str.match(/[aeiou]/gi) || []).length;
     var rV:boolean = false;
@@ -14,7 +14,7 @@ function countAtLeast3Vowels( str:string )
     return rV;
 }
 
-function containsTwiceInARow( str:string )
+function containsTwiceInARow( str:string ) : boolean
 {
     var rV:boolean = false;
     var pc = "";
@@ -35,7 +35,7 @@ function containsTwiceInARow( str:string )
 
 var forbidden:Array<string> = [ "ab", "cd", "pq", "xy" ];
 
-function containsForbidden( str:string )
+function containsForbidden( str:string ) : boolean
 {
     var rV:boolean = false;
     var fLength:number = forbidden.length;
