@@ -21,4 +21,10 @@ Usage in general:
 2. for no input file
 
    prompt> deno run mod.N.ts
-     
+
+
+
+For comments/issues/whatever..., try
+1. put Issues on this GitHub project
+or
+2. eMail: sevilla.larry.prg@gmail.com
