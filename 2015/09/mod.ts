@@ -65,12 +65,7 @@ function GetDist( c1:string, c2:string ) : number
         }
     }
 
-    if ( rV === 0)
-    {
-        console.log( "Program Error GetDist", CityDistances1[k][0], CityDistances1[k][2], c1, c2);
-    }
-   
-return rV;
+    return rV;
 
 }
 
@@ -78,7 +73,8 @@ function CompTotalDist( r:Array<number> ) : number
 {
     var rT:number = 0;
 
-    for ( var k = 0; k < r.length; k++ ) rT += r[k];
+    for ( var k = 0; k < r.length; k++ )
+        rT += r[k];
 
     return rT;
 }
@@ -95,9 +91,7 @@ var minDist:number;
 var maxDist:number;
 
 for ( var i = 0; i < Distances.length; i++ )
-{
     CityDistances1[i] = Distances[i].split(" ");
-}
 
 for ( var i = 0; i < CityDistances1.length; i++ )
 {
