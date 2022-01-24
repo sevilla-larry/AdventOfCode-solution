@@ -66,7 +66,6 @@ function GetDist( c1:string, c2:string ) : number
     }
 
     return rV;
-
 }
 
 function CompTotalDist( r:Array<number> ) : number
