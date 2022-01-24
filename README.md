@@ -24,7 +24,7 @@ Usage in general:
 
 
 
-For comments/issues/whatever..., try
-1. put Issues on this GitHub project
+For comments/issues/suggestions/whatever..., try
+1. Issues on this GitHub project
 or
 2. eMail: sevilla.larry.prg@gmail.com
