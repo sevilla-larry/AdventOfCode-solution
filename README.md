@@ -6,7 +6,7 @@ History - 2022/January
 
 I'm trying to learn Web Development.
 
-Later I was trying to learn Deno ( / TypeScript / JavaScript ) to be my back-end, then I came across the site of AdventOfCode.
+Later I was trying to learn Deno ( / TypeScript / JavaScript ) to be my back-end, wgeb I came across the site of AdventOfCode.
 
 And then, I was hooked.
 
